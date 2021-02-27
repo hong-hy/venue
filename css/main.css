@@ -8,12 +8,32 @@ header .logo img {vertical-align: top;}
 header nav {position: absolute; top: 50%; transform: translateY(-50%); right: 50px;}
 header nav ul li {display: inline-block; vertical-align: top; margin-right: 30px;}
 header nav ul li:last-child {margin-right: 0;}
+header .btn-menu {display: none;}
 
 .section {height: 100vh; position: relative; background-position: right -30% top 50%; background-size: 80%; background-repeat: no-repeat; background-attachment: fixed;}
 .section .info {color: #fff; padding-left: 50px;}
 .section .info .desc {font-size: 20px; letter-spacing: -0.8px; font-weight: 300;}
 .section .info .color {font-family: 'Martel', sans-serif; font-size: 48px; font-weight: 800; letter-spacing: -1.5px; margin-top: 10px;}
 .section .info .bar {display: inline-block; width: 30px; height: 3px; background: #670000; vertical-align: top; margin-top: 8px;}
+
+@media (max-width: 500px) {
+    header .logo {margin-left: 24px;}
+    header nav {display: none;}
+    header .btn-menu {display: block; width: 34px; height: 20px; position: absolute; top: 50%; transform: translateY(-50%); right: 24px;}
+    header .btn-menu span {position: absolute; display: inline-block; width: 100%; height: 2px; background: #000;}
+    header .btn-menu span:nth-child(1) {top: 0; left: 0;}
+    header .btn-menu span:nth-child(2) {top: 50%; left: 0; transform: translateY(-50%);}
+    header .btn-menu span:nth-child(3) {bottom: 0; left: 0;}
+
+    .section .info {padding-left: 24px;}
+    .section .info .desc {font-size: 18px;}
+    .section .info .color {font-size: 36px; margin-top: 0;}
+}
+
+@media (max-width: 980px) {
+    .section {background-size: 100%; background-position: bottom 0 left 50%;}
+    .section .info {position: absolute; left: 0; top: 30%;}
+}
 
 @media (min-width: 1620px) {
     .section {background-size: auto; background-position: right 10% top 50%;}
