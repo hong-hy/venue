@@ -4,8 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VENUE</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Martel:wght@300;400;600;700;800&family=Noto+Sans+KR:wght@300;400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.min.js"></script>
 </head>
 <body>
-    
+    <header>
+        <h1 class="logo"><a href="index.html"><img src="img/logo.png" alt=""></a></h1>
+        <nav>
+            <ul>
+                <li>모델</li>
+                <li>이벤트</li>
+                <li>고객지원</li>
+            </ul>
+        </nav>
+    </header>
+    <section id="main">
+        <div class="section" style="background-image: url(img/01.png);">
+            <div class="info">
+                <p class="desc">우리 집 아니고</p>
+                <span class="bar"></span>
+                <p class="color">The denim</p>
+            </div>
+        </div>
+        <div class="section" style="background-image: url(img/02.png);">
+            <div class="info">
+                <p class="desc">내 집 이니까</p>
+                <span class="bar"></span>
+                <p class="color">Polar white</p>
+            </div>
+        </div>
+        <div class="section" style="background-image: url(img/03.png);">
+            <div class="info">
+                <p class="desc">내 취향대로</p>
+                <span class="bar"></span>
+                <p class="color">Phantom black</p>
+            </div>
+        </div>
+        <div class="section" style="background-image: url(img/04.png);">
+            <div class="info">
+                <p class="desc">SUV도 내 취향대로</p>
+                <span class="bar"></span>
+                <p class="color">Firey red</p>
+            </div>
+        </div>
+        <div class="section" style="background-image: url(img/05.png);">
+            <div class="info">
+                <p class="desc">21가지 컬러 콜라보</p>
+                <span class="bar"></span>
+                <p class="color">Intense blue</p>
+            </div>
+        </div>
+        <div class="section" style="background-image: url(img/06.png);">
+            <div class="info">
+                <p class="desc">혼라이프를 즐기다.</p>
+                <span class="bar"></span>
+                <p class="color">Creamy gray</p>
+            </div>
+        </div>
+        <div class="section" style="background-image: url(img/07.png);">
+            <div class="info">
+                <p class="desc">혼라이프 SUV, VENUE.</p>
+                <span class="bar"></span>
+                <p class="color">Acid yellow</p>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        fp = new fullpage('#main', {
+            scrollBar: true
+        });
+    </script>
 </body>
 </html>

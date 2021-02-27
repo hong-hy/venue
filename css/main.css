@@ -1,0 +1,16 @@
+* {margin: 0; padding: 0;}
+body {font-family: 'Noto Sans KR', sans-serif; overflow: hidden!important; background: repeating-linear-gradient(90deg, rgba(187,187,187,0.05), rgba(187,187,187,0.05) 1px, 0, transparent 5%) #020202;}
+
+header {position: fixed; width: 100%; z-index: 1000; top: 0; left: 0; background: #fff; border-bottom: 1px solid #666;}
+header .logo {margin-left: 50px;}
+header .logo a {display: inline-block;}
+header .logo img {vertical-align: top;}
+header nav {position: absolute; top: 50%; transform: translateY(-50%); right: 50px;}
+header nav ul li {display: inline-block; vertical-align: top; margin-right: 30px;}
+header nav ul li:last-child {margin-right: 0;}
+
+.section {height: 100vh; position: relative; background-position: right -30% top 50%; background-size: 80%; background-repeat: no-repeat; background-attachment: fixed;}
+.section .info {color: #fff; padding-left: 50px;}
+.section .info .desc {font-size: 20px; letter-spacing: -0.8px; font-weight: 300;}
+.section .info .color {font-family: 'Martel', sans-serif; font-size: 48px; font-weight: 800; letter-spacing: -1.5px; margin-top: 10px;}
+.section .info .bar {display: inline-block; width: 30px; height: 3px; background: #670000; vertical-align: top; margin-top: 8px;}
