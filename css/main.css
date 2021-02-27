@@ -14,3 +14,8 @@ header nav ul li:last-child {margin-right: 0;}
 .section .info .desc {font-size: 20px; letter-spacing: -0.8px; font-weight: 300;}
 .section .info .color {font-family: 'Martel', sans-serif; font-size: 48px; font-weight: 800; letter-spacing: -1.5px; margin-top: 10px;}
 .section .info .bar {display: inline-block; width: 30px; height: 3px; background: #670000; vertical-align: top; margin-top: 8px;}
+
+@media (min-width: 1620px) {
+    .section {background-size: auto; background-position: right 10% top 50%;}
+    .section .info {padding-left: 20%;}
+}
