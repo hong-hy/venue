@@ -4,7 +4,7 @@ body {font-family: 'Noto Sans KR', sans-serif; overflow: hidden!important; backg
 header {position: fixed; width: 100%; z-index: 1000; top: 0; left: 0; background: #fff; border-bottom: 1px solid #666;}
 header .logo {margin-left: 50px;}
 header .logo a {display: inline-block;}
-header .logo img {vertical-align: top;}
+header .logo img {height: 50px; vertical-align: top;}
 header nav {position: absolute; top: 50%; transform: translateY(-50%); right: 50px;}
 header nav ul li {display: inline-block; vertical-align: top; margin-right: 30px;}
 header nav ul li:last-child {margin-right: 0;}
@@ -19,7 +19,7 @@ header .btn-menu {display: none;}
 @media (max-width: 500px) {
     header .logo {margin-left: 24px;}
     header nav {display: none;}
-    header .btn-menu {display: block; width: 34px; height: 20px; position: absolute; top: 50%; transform: translateY(-50%); right: 24px;}
+    header .btn-menu {display: block; width: 26px; height: 18px; position: absolute; top: 50%; transform: translateY(-50%); right: 24px;}
     header .btn-menu span {position: absolute; display: inline-block; width: 100%; height: 2px; background: #000;}
     header .btn-menu span:nth-child(1) {top: 0; left: 0;}
     header .btn-menu span:nth-child(2) {top: 50%; left: 0; transform: translateY(-50%);}
